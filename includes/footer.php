@@ -83,7 +83,12 @@
 
       <div class="footer-bottom">
         <p>&copy; <?= date('Y') ?> <?= BUSINESS_FULL_NAME ?>. All rights reserved.</p>
-        <p>Designed for professional business training | <?= WORKSHOP_CITY ?></p>
+        <nav class="legal-nav" aria-label="Legal pages">
+          <a href="/legal/privacy-policy.php">Privacy Policy</a>
+          <a href="/legal/terms-conditions.php">Terms &amp; Conditions</a>
+          <a href="/legal/disclaimer.php">Disclaimer</a>
+          <a href="/legal/refund-policy.php">Refund Policy</a>
+        </nav>
       </div>
     </div>
   </footer>

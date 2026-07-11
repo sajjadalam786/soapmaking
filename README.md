@@ -7,16 +7,23 @@
 
 ```
 soapmaking/
-├── index.php               ← Main landing page (single-page, all sections)
-├── process.php             ← Form handler (CRM webhook + email fallback)
+├── index.php                       ← Main landing page (single-page, all sections)
+├── process.php                     ← Form handler (CRM webhook + email fallback)
 ├── includes/
-│   ├── config.php          ← All business config, GTM, SEO constants
-│   ├── header.php          ← <head>, GTM, meta tags, sticky nav (8 links)
-│   └── footer.php          ← Footer, floating WhatsApp + Call buttons
+│   ├── config.php                  ← All business config, GTM, SEO constants
+│   ├── header.php                  ← <head>, GTM, meta tags, sticky nav (8 links)
+│   └── footer.php                  ← Footer + legal links + floating WhatsApp + Call
+├── legal/
+│   ├── privacy-policy.php          ← Privacy Policy (IT Act 2000 compliant)
+│   ├── terms-conditions.php        ← Terms & Conditions (workshop rules + payments)
+│   ├── disclaimer.php              ← Disclaimer (no income guarantee, health safety)
+│   └── refund-policy.php           ← Refund & Cancellation Policy (tiered schedule)
 └── assets/
-    ├── css/style.css       ← Complete design system (tokens + components)
-    ├── js/main.js          ← Vanilla JS (nav, accordion, scroll, AJAX forms)
-    └── images/             ← Add your images here (see placeholders below)
+    ├── css/
+    │   ├── style.css               ← Complete design system (tokens + components)
+    │   └── legal.css               ← Legal page styles (ToC sidebar, refund table)
+    ├── js/main.js                  ← Vanilla JS (nav, accordion, scroll, AJAX forms)
+    └── images/                     ← Add your images here (see placeholders below)
 ```
 
 ---
