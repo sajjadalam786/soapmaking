@@ -44,8 +44,8 @@ $csrf = $_SESSION['csrf_token'];
     <!-- Micro Proof Row -->
     <div class="hero-proof animate-fadeInUp delay-2">
       <div class="proof-item"><i class="fas fa-certificate"></i> CSDO Certificate</div>
-      <div class="proof-item"><i class="fas fa-hands"></i> 100% Practical</div>
-      <div class="proof-item"><i class="fas fa-rupee-sign"></i> Costing & Pricing Guide</div>
+      <div class="proof-item"><i class="fas fa-hands-clapping"></i> 100% Practical</div>
+      <div class="proof-item"><i class="fas fa-indian-rupee-sign"></i> Costing & Pricing Guide</div>
       <div class="proof-item"><i class="fas fa-users"></i> Batch Seats Limited</div>
     </div>
 
@@ -88,10 +88,10 @@ $csrf = $_SESSION['csrf_token'];
 <section class="products-strip">
   <div class="container">
     <div class="strip-grid">
-      <div class="strip-item"><i class="fas fa-soap"></i><span>Melt &amp; Pour Soap</span></div>
+      <div class="strip-item"><i class="fas fa-hand-sparkles"></i><span>Melt &amp; Pour Soap</span></div>
       <div class="strip-item"><i class="fas fa-flask"></i><span>Cold Process Soap</span></div>
-      <div class="strip-item"><i class="fas fa-bath"></i><span>Bath Salt</span></div>
-      <div class="strip-item"><i class="fas fa-bomb"></i><span>Bath Bomb</span></div>
+      <div class="strip-item"><i class="fas fa-water"></i><span>Bath Salt</span></div>
+      <div class="strip-item"><i class="fas fa-circle-dot"></i><span>Bath Bomb</span></div>
     </div>
   </div>
 </section>
@@ -120,7 +120,7 @@ $csrf = $_SESSION['csrf_token'];
         <p>Handmade bath products are in demand for gifting, salons, spas, boutiques, exhibitions, festive hampers and online business — a growing and profitable niche.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon"><i class="fas fa-hands-helping"></i></div>
+        <div class="why-icon"><i class="fas fa-people-carry-box"></i></div>
         <h3>Simple &amp; Practical Teaching</h3>
         <p>CSDO's teaching method is practical, simple and business-focused. Students understand both the product and the process — with confidence.</p>
       </div>

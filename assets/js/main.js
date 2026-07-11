@@ -13,14 +13,25 @@
   const navMenu   = document.getElementById('navMenu');
   navToggle?.addEventListener('click', () => {
     const open = navMenu.classList.toggle('open');
+    navToggle.classList.toggle('open', open);
     navToggle.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
   });
-  // Close on link click
+  // Close on link click (including mobile CTA)
   navMenu?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navMenu.classList.remove('open');
+      navToggle?.classList.remove('open');
       navToggle?.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
     });
+  });
+  // Close on mobile CTA click
+  document.querySelector('.nav-mobile-cta')?.addEventListener('click', () => {
+    navMenu?.classList.remove('open');
+    navToggle?.classList.remove('open');
+    navToggle?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
   });
 
   /* ── Active nav link on scroll ──────────────────────────────────────────── */

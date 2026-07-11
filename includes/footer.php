@@ -45,7 +45,7 @@
           <h4 class="footer-heading">Contact Us</h4>
           <ul class="footer-contact-list">
             <li>
-              <i class="fas fa-phone-alt"></i>
+              <i class="fas fa-phone"></i>
               <a href="tel:+<?= PHONE ?>"><?= PHONE_DISPLAY ?></a>
             </li>
             <li>
@@ -84,10 +84,10 @@
       <div class="footer-bottom">
         <p>&copy; <?= date('Y') ?> <?= BUSINESS_FULL_NAME ?>. All rights reserved.</p>
         <nav class="legal-nav" aria-label="Legal pages">
-          <a href="/legal/privacy-policy.php">Privacy Policy</a>
-          <a href="/legal/terms-conditions.php">Terms &amp; Conditions</a>
-          <a href="/legal/disclaimer.php">Disclaimer</a>
-          <a href="/legal/refund-policy.php">Refund Policy</a>
+          <a href="legal/privacy-policy.php">Privacy Policy</a>
+          <a href="legal/terms-conditions.php">Terms &amp; Conditions</a>
+          <a href="legal/disclaimer.php">Disclaimer</a>
+          <a href="legal/refund-policy.php">Refund Policy</a>
         </nav>
       </div>
     </div>
@@ -121,6 +121,6 @@
   </button>
 
   <!-- ─── Scripts ───────────────────────────────────────────────────────── -->
-  <script src="/assets/js/main.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

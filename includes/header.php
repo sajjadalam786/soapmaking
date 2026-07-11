@@ -35,7 +35,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- ── Icons ─────────────────────────────────────────────────────────────── -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdab5F8tMn4L1i2sSSVXdCjwk4SvGJWuVzZhASijxz3XfGnzwaBEefNF8PuK0fVhyB+w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <!-- ── Stylesheet ────────────────────────────────────────────────────────── -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -78,6 +78,9 @@
         <span class="logo-badge">CSDO</span>
         <span class="logo-text">Soap Masterclass</span>
       </a>
+
+      <!-- Mobile: Book Seat pill + Hamburger -->
+      <a href="#book" class="nav-mobile-cta" aria-label="Book your seat">📅 Book Seat</a>
 
       <!-- Hamburger (mobile) -->
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
