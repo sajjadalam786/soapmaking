@@ -13,7 +13,23 @@ $csrf = $_SESSION['csrf_token'];
 <!-- ═══════════════════════════════════════════════════════════ HERO ═════════ -->
 <section id="hero" class="hero-section">
   <div class="hero-bg">
-    <!-- IMAGE PLACEHOLDER: Replace with hero workshop photo (1920×1080 recommended) -->
+    <!--
+      ╔══════════════════════════════════════════════════════════════╗
+      ║  📸 HERO BACKGROUND IMAGE                                   ║
+      ║  File: assets/images/hero.jpg                               ║
+      ║  Size: 1920 × 1080 px (landscape photo of workshop/soaps)   ║
+      ║                                                             ║
+      ║  HOW TO ADD:                                                ║
+      ║  1. Save your photo as: assets/images/hero.jpg              ║
+      ║  2. DELETE the <div class="hero-img-placeholder"> below     ║
+      ║  3. PASTE this instead:                                     ║
+      ║     <img src="assets/images/hero.jpg"                       ║
+      ║          alt="CSDO Soap Making Workshop in Action"           ║
+      ║          class="hero-img" loading="eager">                   ║
+      ║  4. In style.css add: .hero-img{width:100%;height:100%;     ║
+      ║     object-fit:cover;}                                      ║
+      ╚══════════════════════════════════════════════════════════════╝
+    -->
     <div class="hero-img-placeholder" aria-hidden="true">
       <span>Hero Image — Workshop in Action</span>
     </div>
@@ -189,7 +205,16 @@ $csrf = $_SESSION['csrf_token'];
       <!-- M&P -->
       <div class="curriculum-card">
         <div class="curr-header">
-          <!-- IMAGE PLACEHOLDER: Melt & Pour Soap photo (600×400) -->
+          <!--
+            📸 CURRICULUM IMAGE 01 — Melt & Pour Soap
+            File: assets/images/melt-pour-soap.jpg  |  Size: 600 × 400 px
+            HOW TO ADD:
+            1. Save photo as: assets/images/melt-pour-soap.jpg
+            2. Delete the <div class="curr-img-placeholder"> line below
+            3. Paste: <img src="assets/images/melt-pour-soap.jpg"
+                           alt="Melt and Pour Soap Making" class="curr-img" loading="lazy">
+            4. In style.css add: .curr-img{width:100%;height:100%;object-fit:cover;}
+          -->
           <div class="curr-img-placeholder"><span>Melt &amp; Pour Soap Image</span></div>
           <div class="curr-number">01</div>
         </div>
@@ -210,7 +235,15 @@ $csrf = $_SESSION['csrf_token'];
       <!-- CP -->
       <div class="curriculum-card">
         <div class="curr-header">
-          <!-- IMAGE PLACEHOLDER: Cold Process Soap photo (600×400) -->
+          <!--
+            📸 CURRICULUM IMAGE 02 — Cold Process Soap
+            File: assets/images/cold-process-soap.jpg  |  Size: 600 × 400 px
+            HOW TO ADD:
+            1. Save photo as: assets/images/cold-process-soap.jpg
+            2. Delete the <div class="curr-img-placeholder"> line below
+            3. Paste: <img src="assets/images/cold-process-soap.jpg"
+                           alt="Cold Process Soap Making" class="curr-img" loading="lazy">
+          -->
           <div class="curr-img-placeholder"><span>Cold Process Soap Image</span></div>
           <div class="curr-number">02</div>
         </div>
@@ -231,7 +264,15 @@ $csrf = $_SESSION['csrf_token'];
       <!-- Bath Salt -->
       <div class="curriculum-card">
         <div class="curr-header">
-          <!-- IMAGE PLACEHOLDER: Bath Salt photo (600×400) -->
+          <!--
+            📸 CURRICULUM IMAGE 03 — Bath Salt
+            File: assets/images/bath-salt.jpg  |  Size: 600 × 400 px
+            HOW TO ADD:
+            1. Save photo as: assets/images/bath-salt.jpg
+            2. Delete the <div class="curr-img-placeholder"> line below
+            3. Paste: <img src="assets/images/bath-salt.jpg"
+                           alt="Bath Salt Making" class="curr-img" loading="lazy">
+          -->
           <div class="curr-img-placeholder"><span>Bath Salt Image</span></div>
           <div class="curr-number">03</div>
         </div>
@@ -251,7 +292,15 @@ $csrf = $_SESSION['csrf_token'];
       <!-- Bath Bomb -->
       <div class="curriculum-card">
         <div class="curr-header">
-          <!-- IMAGE PLACEHOLDER: Bath Bomb photo (600×400) -->
+          <!--
+            📸 CURRICULUM IMAGE 04 — Bath Bomb
+            File: assets/images/bath-bomb.jpg  |  Size: 600 × 400 px
+            HOW TO ADD:
+            1. Save photo as: assets/images/bath-bomb.jpg
+            2. Delete the <div class="curr-img-placeholder"> line below
+            3. Paste: <img src="assets/images/bath-bomb.jpg"
+                           alt="Bath Bomb Making" class="curr-img" loading="lazy">
+          -->
           <div class="curr-img-placeholder"><span>Bath Bomb Image</span></div>
           <div class="curr-number">04</div>
         </div>
@@ -349,7 +398,18 @@ $csrf = $_SESSION['csrf_token'];
       </div>
 
       <div class="csdo-img-col">
-        <!-- IMAGE PLACEHOLDER: CSDO Training photo (800×600) -->
+        <!--
+          📸 WHY CSDO — Training Photo
+          File: assets/images/csdo-training.jpg  |  Size: 800 × 600 px
+          HOW TO ADD:
+          1. Save photo as: assets/images/csdo-training.jpg
+          2. Delete the <div class="csdo-img-placeholder"> line below
+          3. Paste: <img src="assets/images/csdo-training.jpg"
+                         alt="CSDO Soap Making Training Session"
+                         class="csdo-img" loading="lazy">
+          4. In style.css add: .csdo-img{width:100%;height:360px;
+             object-fit:cover;border-radius:var(--radius-lg);}
+        -->
         <div class="csdo-img-placeholder"><span>CSDO Training Photo</span></div>
         <div class="csdo-stat-card">
           <div class="stat"><span class="stat-num">38+</span><span class="stat-label">Years Experience</span></div>
@@ -398,7 +458,30 @@ $csrf = $_SESSION['csrf_token'];
     <p class="section-subtext light">Real products made by our students. Each item is crafted with professional technique and business-grade presentation.</p>
 
     <div class="gallery-grid">
-      <!-- IMAGE PLACEHOLDERS: Replace with actual product/workshop photos -->
+      <!--
+        📸 GALLERY IMAGES — 6 Photos of products/workshop
+        Files: assets/images/gallery-1.jpg to gallery-6.jpg
+        Size: 800 × 600 px each (landscape)
+
+        Suggested content for each:
+          gallery-1.jpg → Melt & Pour Soap products photo
+          gallery-2.jpg → Cold Process Soap bars photo
+          gallery-3.jpg → Bath Salt jars photo
+          gallery-4.jpg → Bath Bombs photo
+          gallery-5.jpg → Workshop in progress (students working)
+          gallery-6.jpg → Product packing / display photo
+
+        HOW TO ADD (do this for each gallery item):
+        1. Save your photos as gallery-1.jpg, gallery-2.jpg ... gallery-6.jpg
+           in: assets/images/
+        2. Find the <div class="gallery-img-placeholder"> inside each gallery-item
+        3. DELETE that entire <div class="gallery-img-placeholder">...</div> block
+        4. PASTE this in its place (change the number for each):
+           <img src="assets/images/gallery-1.jpg"
+                alt="Melt and Pour Soap — CSDO Workshop"
+                class="gallery-img" loading="lazy">
+        5. In style.css add: .gallery-img{width:100%;height:100%;object-fit:cover;}
+      -->
       <?php for ($i = 1; $i <= 6; $i++): ?>
       <div class="gallery-item" id="gallery-item-<?= $i ?>">
         <div class="gallery-img-placeholder">
@@ -430,7 +513,21 @@ $csrf = $_SESSION['csrf_token'];
         ];
         foreach ($testimonials as $t): ?>
         <div class="testimonial-card">
-          <!-- IMAGE PLACEHOLDER: Student photo (100×100) -->
+          <!--
+            📸 TESTIMONIAL PHOTO — Replace for each student
+            Files: assets/images/student-priya.jpg
+                   assets/images/student-ritu.jpg
+                   assets/images/student-anita.jpg
+            Size: 100 × 100 px (square, face photo)
+            HOW TO ADD:
+            1. Save photo as assets/images/student-priya.jpg (etc.)
+            2. Delete the <div class="testimonial-avatar"> line below
+            3. Paste: <img src="assets/images/student-priya.jpg"
+                           alt="Priya Sharma — CSDO Student"
+                           class="testimonial-avatar-img" loading="lazy">
+            4. In style.css add: .testimonial-avatar-img{width:72px;height:72px;
+               border-radius:50%;object-fit:cover;margin:0 auto 16px;display:block;}
+          -->
           <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
           <div class="stars">
             <?php for ($s = 0; $s < $t[3]; $s++) echo '<i class="fas fa-star"></i>'; ?>
